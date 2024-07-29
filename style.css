@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.bill-container {
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+
+.convert-bill {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+input {
+    width: 260px;
+    height: 35px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    font-size: 1rem;
+    padding-left: 20px;
+}
+
+h2 {
+    color: rgb(70, 70, 195);
+    font-size: 1.2rem;
+}
+
+.billentery {
+    color: rgb(28, 28, 224);
+    font-weight: 600;
+}
+
+.input-bill {
+    position: relative;
+}
+
+.ruppe {
+    position: absolute;
+    top: 61%;
+    left: 3%;
+    font-size: 1.1rem;
+}
+
+.tip button {
+    text-decoration: none;
+    font-size: 1.4rem;
+    background-color: rgba(219, 217, 223, 0.79);
+    padding: 6px 25px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: not-allowed;
+}
+
+.peoplecount {
+    margin-top: 6px;
+}
+
+.tip-1 {
+    margin: 15px 0 25px;
+}
+
+.tip-2 {
+    margin-bottom: 10px;
+}
+
+.genrate-bill {
+    margin-top: 15px;
+
+    & button {
+        background-color: rgb(133, 77, 236);
+        padding: 7px 90px;
+        text-decoration: none;
+        color: white;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+}
+
+.totalbill {
+    background-color: rgb(66, 84, 196);
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 37px 30px;
+}
+
+.main-bill {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    background-color: rgb(66, 84, 196);
+    width: 350px;
+    height: 350px;
+    border-radius: 10px;
+    padding: 37px 30px;
+}
+
+.main-bill h2 {
+    color: rgb(255, 255, 255);
+}
+
+h3 {
+    color: rgb(212, 202, 202);
+}
+
+.reset a {
+    color: white;
+    text-decoration: none;
+    background-color: rgba(172, 172, 172, 0.399);
+    padding: 8px 125px;
+    border-radius: 5px;
+
+}
+
+.am-tip {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* add remove js class */
+
+.noInput {
+    cursor: not-allowed;
+}
+
+.tipcolor button {
+    background-color: rgb(133, 77, 236);
+    cursor: pointer;
+}
+
+.genrate-bill .noInput {
+    cursor: not-allowed;
+    background-color: rgba(172, 172, 172, 0.399);
+}
+
+.tip .true {
+    border: 4px solid darkorange;
+}
+
+/* 
+function GenerateBtnCalculate() {
+    GenerateBillAll.addEventListener('click', function () {
+        console.log('asd')
+    })
+}
+
+GenerateBtnCalculate() */
+
+
+/* // ek check kareega ke dono input mai kuch likha hai ke nahi agar kuch nahi likha hoga to pehle se html mai hi disabled hai or color change hai lekin jab kuch likha hoga to ye condtion false ho jayege or else mai jake disable ko false kar dege mtlb mai ab click kar paunga or noInput Remove ho jayega jese usko pehla color blue type ho jayega or lekin agar maine jab kuch likha or fir nikal diya to vapes bhi to click disabled hona chahiye to isliye kuch likha to to else mai jake click kar paunga ek bar true huya fir vapes agar maine likha nikal diya to vapes condtion check hoge or true kar dega */

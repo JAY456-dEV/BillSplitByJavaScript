@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="bill-container">
+        <div class="convert-bill">
+            <div class="input-bill">
+                <h2>Bill</h2>
+                <i class="fa-solid fa-indian-rupee-sign ruppe"></i>
+                <input type="number" class="billentery">
+            </div>
+
+            <div class="select-tip">
+                <h2>Select Tip</h2>
+
+                <div class="tip ">
+                    <div class="tip-1 ">
+                        <button href="" class="btn " id="5" disabled>5%</button>
+                        <button href="" class="btn" id="10" disabled>10%</button>
+                        <button href="" class="btn" id="15" disabled>15%</button>
+                    </div>
+                    <div class="tip-2">
+                        <button href="" class="btn" id="25" disabled>25%</button>
+                        <button href="" class="btn" id="50" disabled>50%</button>
+                        <button href="" class="btn" id="75" disabled>75%</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="custom-input ">
+                <input type="number" class="customtip noInput " placeholder="Custom Tip" disabled>
+            </div>
+
+            <div class="peoplecount ">
+                <h2>Number Of People</h2>
+                <input type="number" class="peoplenumber noInput " placeholder="No of People" disabled>
+            </div>
+
+            <div class="genrate-bill">
+                <button class="noInput GenerateBillAll" disabled>Generate Bill</button>
+            </div>
+        </div>
+        <div class="main-bill">
+            <div class="tip-amount am-tip">
+                <h3>Tip Amount</h3>
+                <h2 class="tip-amount2"></h2>
+            </div>
+
+            <div class="total-amount am-tip">
+                <h3>Total</h3>
+                <h2 class="total"></h2>
+            </div>
+
+            <div class="each-amount am-tip">
+                <h3>Each Person Bill</h3>
+                <h2 class="eachAmount"></h2>
+            </div>
+
+            <div class="reset">
+                <a href="">Reset</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
